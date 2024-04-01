@@ -11,10 +11,10 @@ body{
 }
 .sidebar a{
     display: inline-block;
-    font-size: 30px;
+    font-size: 16px;
     font-weight: 600px;
     margin-left: 35px;
-    font-family: Arial, sans-serif;
+    font-family: "Open Sans", sans-serif ;
     margin-top: 20px;
     margin-bottom: 20px;
 
@@ -29,47 +29,10 @@ body{
     display: flex;
     flex-direction: column; 
     align-items: flex-start;
-    width: 13vw;
+    width: 16vw;
     height: 100vh; 
     background: black;
     border-right: 1px solid #262626;
-}
-
-
-
-#logoo-img{
-    margin-top: 20px;
-    margin-left: 35px;
-}
-
-img{
-    margin-left: 10px;
-}
-
-.sidebar-header{
-    width: 100%;
-    margin-bottom: 44px;
-
-}
-
-
-
-.logo-img {
-    display: flex;
-    font-size: 28px;
-    height: 35px;
-    width: 51px;
-    text-align: center;
-   
-
-    
-}
-
-.logo-img{
-    margin-right: 50px;
-    height: 32px;
-
-
 }
 
 .sidebar button{
@@ -119,7 +82,7 @@ img{
 }
 
 .sidebar button span {
-    font-size: 17px;
+    font-size: 16px;
 }
 
 .sidebar > nav {
@@ -142,15 +105,16 @@ img{
 
 .sidebar button img {
     filter: brightness(0) invert(1);
+    
 }
+
 
 #Profile{
     border-radius: 50px;
-    margin-left: 25px;
+    margin-left: 15px;
     filter: brightness();
     border: solid 2px;
 }
-
 
 /* Profile section */
 
@@ -179,7 +143,7 @@ img{
 }
 
 #option {
-    margin-bottom: -8px;
+    margin-bottom: -1%;
 }
 
 
@@ -191,32 +155,29 @@ img{
     float: left;
     align-items: center;
     margin-right: 5rem;
-   
 }
 
 .profile-name {
     font-family: Arial, sans-serif;
     font-size: 20px;
-    font-weight: 500px;
+    font-weight: 600;
     margin-bottom: 5px;
     margin-right: 10px;
     display: inline-block;
 }
+
 .profile-section button{
    background-color: #262626;
    font-size: 14px;
+   font-weight: 600;
    cursor: pointer;
    border: none;
    padding: 0;
-   padding: 6px 10px;
+   padding: 10px 10px;
    border-radius: 6px;
    align-items: center;
-
-
+   margin-top: 2px;
 }
-
-
-
 
 .profile-stats li {
     display: flex;
@@ -225,53 +186,56 @@ img{
     margin-right: 10px;
     cursor: pointer;    
     justify-content: space-around;
-
 }
 
-.highlight{
-    float: left;
-    height: 85px;
-    width: auto;
-    border-radius: 50%;
-    margin-top: 15px;
-    margin-left: 15px;
-    border: 2px solid #363636;
-
+#section_nwe{
+    display: flex; 
+    flex-direction: column;
+    align-items: center; 
+    width: fit-content; 
+    margin-top: 100px;
+    margin-bottom: 30px;
 }
-
-#highlight{
-    
-    width: 75px;
-    height: auto;
-    border-radius: 50%;
-    margin: 2.5px;
-    background-color: #121212;
+#section_nwe span{
+    font-size: 15px;
     cursor: pointer;
 }
 
+#continer_icone_plus{
+    width: fit-content;
+    padding: 3px;
+    border: 3px solid #121212;
+    background-color: black;
+    border-radius: 50px;
+    margin-bottom: 8px;
+    
+ }
+ #continer_icone_plus div{
+    width: 75px;
+    height: 75px;
+    background-color: #121212;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
 
-.highlight{
-    margin-top: 10%;
-    margin-left: -40%;
-    margin-bottom: 10%;
+ #continer_icone_plus div span{
+     font-size: 80px;
+     font-weight: 200;
+     color: #707070;
+     cursor: pointer;
 }
 
-h6{
-    font-family: Arial, sans-serif;
-    margin-left: 25px;
-    margin-top: 8px;
-    font-size: 12px;
-    margin-bottom: 20%;
-    
-    
+.New{
+    font-family: "Open Sans", sans-serif ;
+
 }
 
 section #gallery{
     display: flex;
     justify-content: center;
     align-items: center;
-    
-  
 }
 
 
@@ -279,8 +243,9 @@ section #gallery{
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 40vw;
+    width: 60vw;
     border-top: 1px solid #262626;
+    margin-left: 185px;
     
 }
 
@@ -289,16 +254,13 @@ section #gallery{
     display: flex;
     justify-content: center;
     align-items: center;
-
     font-size: 12px;
     margin-left: 0%;
     gap: 5px;
     letter-spacing: 2px
-
 }
 
 #gallery button{
-    
     height: 60px;
     background-color: transparent;
     border: 0;
@@ -308,9 +270,9 @@ section #gallery{
 
 #images {
     display: grid;
-    grid-template-columns: repeat(3, 1fr); /* Three images in a row */
-    gap: 2px; /* Adjust the gap between images */
-    justify-items: center; /* Center the items horizontally */
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 2px; 
+    justify-items: center;
     margin-left: 10%;
     margin-right: 10%;
 }
@@ -365,7 +327,6 @@ section #gallery{
     color: #A8A8A8;
     cursor: pointer;
 }
-
 
 
 
