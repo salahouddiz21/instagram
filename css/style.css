@@ -215,13 +215,6 @@ body{
     align-items: center;
  }
 
- .TAGGED {
-    color: #64665D;
- }
-
- .SAVED {
-    color: #64665D;
- }
 
  #continer_icone_plus div span{
      font-size: 80px;
@@ -234,6 +227,15 @@ body{
     font-family: "Open Sans", sans-serif ;
 
 }
+
+.TAGGED {
+    color: #64665D;
+ }
+
+ .SAVED {
+    color: #64665D;
+ }
+
 
 section #gallery{
     display: flex;
@@ -263,12 +265,13 @@ section #gallery{
     letter-spacing: 2px
 }
 
-#gallery button{
+#gallery button {
     height: 60px;
     background-color: transparent;
     border: 0;
     padding: 0;
     cursor: pointer;
+    margin-right: 50px; 
 }
 
 #images {
